@@ -109,4 +109,4 @@ result = result[columns_to_keep]
 result = result.rename(columns={'net_payment_count_x': 'net_payment_count'})
 
 # CSV'ye kaydet
-result.to_csv('submission_prophetinf_updated.csv', index=False)
+result.to_csv('submission_prophet.csv', index=False)
